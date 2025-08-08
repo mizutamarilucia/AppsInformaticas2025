@@ -1,13 +1,20 @@
-# Historia 1
-# La historia se sitúa en el pueblo ficticio de Hawkins, en el estado de Indiana, Estados Unidos, durante los años ochenta,
-# cuando un niño de doce años llamado Will Byers desaparece misteriosamente.
-# Poco después, Eleven, una niña aparentemente fugitiva y con poderes telequinéticos,
-# se encuentra con Mike, Dustin y Lucas, amigos de Will, y los ayuda en la búsqueda de su amigo desaparecido.
 
-nombrePais = str(input("Dame el nombre del pais "))
-nombreEstado = str(input("Dame el nombre del estado "))
-nombrePrincipal = str(input("Dame el mombre del personaje principal "))
-nombrePoderes = str(input("Dame el nombre de los poderes "))
-nombreChicoDesaparecido = str(input("Dame el nombre del chico desaparecido"))
+# Historia 2
+# La serie sigue la historia de [Johnny] [Lawrence], exestudiante del dojo [Cobra Kai],
+# quien busca la redención reabriendo el infame dojo y reavivando, en el proceso,
+# su rivalidad con un ahora exitoso [Daniel] [LaRusso].
+# Este enemigo ha estado luchando por mantener el equilibrio en su vida sin la guía de su mentor, el señor Miyagi.
+# La serie trata sobre dos hombres que enfrentan sus demonios del pasado y
+# resuelven las frustraciones del presente de la única manera en que saben hacerlo: a través del karate.
 
-print()
+nombrePrincipal = str(input("Dame el nombre del personaje principal "))
+apellidoPrincipal = str(input("Dame el apellido del personaje principal "))
+dojo = str(input("Dame el nombre del dojo "))
+nombreHeroe = str(input("Dame el nombre del heroe "))
+apellidoHeroe = str(input("Dame el apellido del heroe "))
+
+print("Este es el nombre de la historia")
+print("La serie sigue la historia de"+nombrePrincipal+" "+apellidoPrincipal+"exestudiante del dojo Cobra Kai,")
+print("quien busca la redención reabriendo el infame dojo y reavivando, en el proceso,")
+print("su rivalidad con un ahora exitoso "+nombreHeroe+" "+apellidoHeroe)
+print("Este enemigo ha estado luchando por mantener el equilibrio en su vida sin la guía de su mentor, el señor Miyagi. La serie trata sobre dos hombres que enfrentan sus demonios del pasado y resuelven las frustraciones del presente de la única manera en que saben hacerlo: a través del karate.")
